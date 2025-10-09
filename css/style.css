@@ -93,3 +93,44 @@ body{
   background-repeat: no-repeat;
 
 }
+#noticias{
+
+background-image: url("../img/noticias.png");
+background-size: 380px;
+
+
+background-position: center;
+background-repeat: no-repeat;
+  
+}
+
+#clasificacion{
+
+  background-image: url("../img/clasificacion.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.cookie-caja{
+
+  width: cover;
+  background: grey;
+  color: white;
+  border-top: 1px solid #000000;
+  margin-top: 108px;
+  padding: 10px;
+  text-align: center;
+
+}
+
+#cookie-boton button{
+
+  background: #000000;
+  color: #fff;
+  padding: 7px 15px;
+  margin-left: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
