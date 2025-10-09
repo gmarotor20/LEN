@@ -68,3 +68,12 @@ body{
 
     
 }
+
+#formulario{
+  background-image: url('../img/formulario.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
