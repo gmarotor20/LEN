@@ -77,3 +77,19 @@ body{
 
 
 }
+
+#participantes{
+  background-image: url('../img/participantes.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+#conocenos{
+  background-image: url('../img/conocenos.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
