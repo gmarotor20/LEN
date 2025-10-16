@@ -1,0 +1,136 @@
+.equipos-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 35px; 
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.equipo-card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 200px;
+    height: 200px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+
+.equipo-card:hover {
+    transform: translateY(-5px);
+}
+
+#faze:hover{
+
+    box-shadow: 0 10px 20px rgb(223, 7, 7);
+}
+
+#g2:hover{
+
+    box-shadow: 0 10px 20px rgb(243, 158, 0);
+
+}
+
+#astralis:hover{
+
+    box-shadow: 0 10px 20px rgb(223, 7, 7);
+}
+
+#vitality:hover{
+
+    box-shadow: 0 10px 20px rgb(240, 236, 0);
+}
+
+#thieves:hover{
+
+    box-shadow: 0 10px 20px rgb(223, 7, 7);
+}
+
+#fnatic:hover{
+
+    box-shadow: 0 10px 20px rgba(255, 153, 0, 0.986);
+}
+
+#furia:hover{
+
+    box-shadow: 0 10px 20px rgba(2, 245, 22, 0.986);
+}
+
+#cloud9:hover{
+
+    box-shadow: 0 10px 20px rgb(0, 201, 252);
+}
+
+
+
+.logo-equipo {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.nombre-equipo {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    display: flex;         
+    align-items: center; 
+
+}
+
+.usa {
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.alemania {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.dinamarca{
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+
+}
+
+.francia{
+
+    width: 16px;
+    height: 12px; 
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.reinounido{
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.brasil{
+
+    width: 16px; 
+    height: 12px; 
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
