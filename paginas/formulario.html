@@ -6,50 +6,53 @@
     <link rel ="stylesheet" href="../css/formulario.css">
 </head>
 
-<header> <h1> Formularioa </h1></header>
+<header>
+  <a href="../index.html">
+    <button class="volver"><span>⬅</span> Atzera</button>
+  </a>  
+</header>
 
 <body>
 
-    <form><!--inicio fomulario rellenar -->
-          <p class="formulario">
-            <label for="nombre" class="introducir_dato"> Izena
-              <span class="obligatorio">*</span>
-            </label>
-            <input type="text" id="nombre" required placeholder="Idatzi zure izena">
-          </p>
+   <form action="#" method="post">
+    <h2>Kontaktua</h2>
 
-           <p class="formulario">
-            <label for="apellidos" class="introducir_dato"> Abizenak
-              <span class="obligatorio">*</span>
-            </label>
-            <input type="text" id="apellido" required placeholder="Idatzi zure abizenak">
-          </p>
+    <p class="formulario">
+      <label for="nombre">Izena <span class="obligatorio">*</span></label>
+      <input type="text" id="nombre" name="nombre" required placeholder="Idatzi zure izena">
+    </p>
 
-          <p class="formulario">
-            <label for="email" class="introducir_dato"> Posta elektronikoa
-              <span class="obligatorio">*</span>
-            </label>
-            <input type="email" id="email" required placeholder="posta elektronikoa">
-          </p>
+    <p class="formulario">
+      <label for="apellidos">Abizenak <span class="obligatorio">*</span></label>
+      <input type="text" id="apellidos" name="apellidos" required placeholder="Idatzi zure abizenak">
+    </p>
 
-          <p class="formulario">
-            <label for="asunto" class="introducir_dato"> Zer nahi duzu?
-              <span class="obligatorio">*</span>
-            </label>
-            <select id="asunto" name="bideojoko" required>
-              <option value="informazioa eskatu"> Informazioa eskatu </option>
-              <option value="txapelketan parte hartzeko eskaera"> Txapelketan parte hartzeko eskaera </option>
-            </select>
-          </p>
+    <p class="formulario">
+      <label for="email">Posta elektronikoa <span class="obligatorio">*</span></label>
+      <input type="email" id="email" name="email" required placeholder="Posta elektronikoa">
+    </p>
 
-          <button type="submit">
-            <p>Bidali</p>
-          </button>
+    <p class="formulario">
+      <label for="asunto">Zer nahi duzu? <span class="obligatorio">*</span></label>
+      <select id="asunto" name="asunto" required>
+        <option value="" disabled selected>-- Aukeratu aukera bat --</option>
+        <option value="informazioa">Informazioa eskatu</option>
+        <option value="txapelketa">Txapelketan parte hartzeko eskaera</option>
+      </select>
+    </p>
 
-          <p class="aviso">
-            <span class="obligatorio"> * </span> Eremuak nahitaezkoak dira.
-          </p>
-        </form>
+    <p class="formulario">
+      <label for="mensaje">Zalantza</label>
+      <textarea id="mensaje" name="mensaje" placeholder="Idatzi zure mezua hemen..."></textarea>
+    </p>
+
+    <button type="submit">Bidali</button>
+
+    <p class="aviso">
+      <span class="obligatorio">*</span> Eremuak nahitaezkoak dira.
+    </p>
+  </form>
+
     
 </body>
 </html>
