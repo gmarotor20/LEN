@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Formularioa</title>
+    <link rel ="stylesheet" href="../css/formulario.css">
+</head>
+
+<header> <h1> Formularioa </h1></header>
+
+<body>
+
+    <form><!--inicio fomulario rellenar -->
+          <p class="formulario">
+            <label for="nombre" class="introducir_dato"> Izena
+              <span class="obligatorio">*</span>
+            </label>
+            <input type="text" id="nombre" required placeholder="Idatzi zure izena">
+          </p>
+
+           <p class="formulario">
+            <label for="apellidos" class="introducir_dato"> Abizenak
+              <span class="obligatorio">*</span>
+            </label>
+            <input type="text" id="apellido" required placeholder="Idatzi zure abizenak">
+          </p>
+
+          <p class="formulario">
+            <label for="email" class="introducir_dato"> Posta elektronikoa
+              <span class="obligatorio">*</span>
+            </label>
+            <input type="email" id="email" required placeholder="posta elektronikoa">
+          </p>
+
+          <p class="formulario">
+            <label for="asunto" class="introducir_dato"> Zer nahi duzu?
+              <span class="obligatorio">*</span>
+            </label>
+            <select id="asunto" name="bideojoko" required>
+              <option value="informazioa eskatu"> Informazioa eskatu </option>
+              <option value="txapelketan parte hartzeko eskaera"> Txapelketan parte hartzeko eskaera </option>
+            </select>
+          </p>
+
+          <button type="submit">
+            <p>Bidali</p>
+          </button>
+
+          <p class="aviso">
+            <span class="obligatorio"> * </span> Eremuak nahitaezkoak dira.
+          </p>
+        </form>
+    
+</body>
+</html>
