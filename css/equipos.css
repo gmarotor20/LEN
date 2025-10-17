@@ -1,6 +1,9 @@
 body{
     background-color: #1a1a1a;
 }
+h1 {
+color: beige;
+}
 .equipos-container {
     display: flex;
     flex-wrap: wrap; 
