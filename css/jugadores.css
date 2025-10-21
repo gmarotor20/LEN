@@ -10,11 +10,38 @@ h1 {
 .equipos-container {
     display: flex;
     flex-wrap: wrap; 
-    gap: 200px; 
+    gap: 150px; 
     justify-content: center;
     padding: 80px;
 }
 
+.equipo-card {
+  position: relative; 
+  width: 250px; 
+  height: 300px;
+  overflow: hidden; 
+}
+
+.equipo-card .nombre-equipo {
+  position: absolute; 
+  bottom: 0;                
+  width: 100%;    
+  margin: 0;       
+  padding: 12px 15px; 
+  position: absolute;
+  bottom: 0;     
+  left: 0;         
+  width: 100%;         
+  padding: 12px 15px; 
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;                         
+  font-size: 1.2em;                    
+  font-weight: bold;                    
+  text-align: left;                     
+  
+ }
+
+/*/ Jugadores de FAZE /*/
 
 #j1{
     display: flex;
@@ -107,3 +134,286 @@ h1 {
     border-radius: 2px; 
     border: 1px solid rgba(255, 255, 255, 0.3); 
 }
+
+/*/ Jugadores de G2 /*/
+
+#j1-g2{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/bosnia.png);
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+}
+
+#j2-g2{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/guatemala.png);
+    background-position: center;
+    background-size: contain;
+}
+
+#j3-g2{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/españa.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#j1-g2:hover{
+
+    box-shadow: 0 10px 20px rgb(255, 255, 255);
+}
+
+#j2-g2:hover{
+
+    box-shadow: 0 10px 20px rgb(0, 238, 255);
+}
+
+#j3-g2:hover{
+
+    box-shadow: 0 10px 20px rgb(251, 255, 0);
+}
+
+.bosnia{
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.guatemala {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(238, 238, 238, 0.3); 
+}
+
+.españa {
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+/*/ Jugadores de Falcons /*/
+
+#j1-f{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/bosnia.png);
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+}
+
+#j2-f{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/dinamarca.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#j3-f{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/rusia.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#j1-f:hover{
+
+    box-shadow: 0 10px 20px rgb(255, 255, 255);
+}
+
+#j2-f:hover{
+
+    box-shadow: 0 10px 20px rgb(255, 1, 1);
+}
+
+#j3-f:hover{
+
+    box-shadow: 0 10px 20px rgb(0, 119, 255);
+}
+
+.bosnia{
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.dinamarca {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(238, 238, 238, 0.3); 
+}
+
+.rusia {
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+
+/*/ Jugadores de Vitality /*/
+
+#j1-v{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/francia.png);
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+}
+
+#j2-v{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/francia.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#j3-v{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/estonia.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#j1-v:hover{
+
+    box-shadow: 0 10px 20px rgb(255, 255, 255);
+}
+
+#j2-v:hover{
+
+    box-shadow: 0 10px 20px rgb(255, 255, 255);
+}
+
+#j3-v:hover{
+
+    box-shadow: 0 10px 20px rgb(0, 119, 255);
+}
+
+.francia{
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.estonia {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(238, 238, 238, 0.3); 
+}
+
