@@ -91,9 +91,10 @@ h1 {
     background-color: #1a1a1a; 
     color: #fff; 
     transition: transform 0.3s, box-shadow 0.3s;
-    background-image: url(../img/equipos/banderas/reino\ unido.png);
+    background-image: url(../img/equipos/banderas/eslovaquia.png);
     background-size: cover;
     background-position: center;
+    
 }
 
 #j1:hover{
@@ -108,11 +109,11 @@ h1 {
 
 #j3:hover{
 
-    box-shadow: 0 10px 20px rgb(0, 4, 255);
+    box-shadow: 0 10px 20px rgb(255, 255, 255);
 }
 
 
-.reinounido{
+.eslovaquia{
 
     width: 16px;
     height: 12px;
@@ -415,5 +416,373 @@ h1 {
     height: 12px;
     border-radius: 2px; 
     border: 1px solid rgba(238, 238, 238, 0.3); 
+}
+
+/*/ Jugadores de Navi /*/
+
+#j1-n{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/finlandia.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#j2-n{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/rumania.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#j3-n{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/ucrania.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#j1-n:hover{
+
+    box-shadow: 0 10px 20px rgb(255, 255, 255);
+}
+
+#j2-n:hover{
+
+    box-shadow: 0 10px 20px rgb(255, 230, 0);
+}
+
+#j3-n:hover{
+
+    box-shadow: 0 10px 20px rgb(0, 119, 255);
+}
+
+.finlandia {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.rumania {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(238, 238, 238, 0.3); 
+}
+
+.ucrania {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(238, 238, 238, 0.3); 
+}
+
+
+/*/ Jugadores de Fnatic /*/
+
+#j1-fn{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/suecia.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#j2-fn{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/dinamarca.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#j3-fn{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/ucrania.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#j1-fn:hover{
+
+    box-shadow: 0 10px 20px rgb(0, 102, 255);
+}
+
+#j2-fn:hover{
+
+    box-shadow: 0 10px 20px rgb(255, 255, 255);
+}
+
+#j3-fn:hover{
+
+    box-shadow: 0 10px 20px rgb(0, 119, 255);
+}
+
+.suecia {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.dinamarca {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(238, 238, 238, 0.3); 
+}
+
+.ucrania {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(238, 238, 238, 0.3); 
+}
+
+/*/ Jugadores de Furia /*/
+
+#j1-fur{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/brasil.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#j2-fur{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/brasil.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#j3-fur{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/letonia.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#j1-fur:hover{
+
+    box-shadow: 0 10px 20px rgb(0, 255, 0);
+}
+
+#j2-fur:hover{
+
+    box-shadow: 0 10px 20px rgb(0, 255, 0);
+}
+
+#j3-fur:hover{
+
+    box-shadow: 0 10px 20px rgb(129, 19, 19);
+}
+
+.brasil {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.letonia {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(238, 238, 238, 0.3); 
+}
+
+/*/ Jugadores de Mongolz /*/
+
+#j1-mon{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/mongolia.png);
+    background-size: contain;
+    background-position: center; 
+}
+
+#j2-mon{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/mongolia.png);
+    background-size: contain;
+    background-position: center;
+    
+
+}
+
+#j3-mon{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 220px;
+    height: 360px; 
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: url(../img/equipos/banderas/mongolia.png);
+    background-size: contain;
+    background-position: center;
+}
+
+#j1-mon:hover{
+
+    box-shadow: 0 10px 20px rgb(255, 0, 0);
+}
+
+#j2-mon:hover{
+
+    box-shadow: 0 10px 20px rgb(255, 2, 2);
+}
+
+#j3-mon:hover{
+
+    box-shadow: 0 10px 20px rgb(255, 0, 0);
+}
+
+.mongolia {
+
+    width: 16px;
+    height: 12px;
+    border-radius: 2px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
 }
 
