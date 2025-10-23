@@ -2,11 +2,45 @@
 body {
     background-color: black;
 }
-
-h1 {
-    color: beige;
-   
+header {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  align-items: center;      
+  justify-content: space-between; 
+  color: beige;
 }
+
+header h1 {
+  position: absolute;      
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  text-align: center;
+}
+
+.volver, .siguiente {
+  background: linear-gradient(90deg, #222 0%, #333 100%);
+  color: #fff;
+  border: 1px solid #e60012;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.volver:hover, .siguiente:hover {
+  background: #e60012;
+  transform: scale(1.05);
+}
+
+
 .equipos-container {
     display: flex;
     flex-wrap: wrap; 
