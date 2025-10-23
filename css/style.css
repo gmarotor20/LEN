@@ -27,6 +27,35 @@ body{
     gap: 5px;
 }
 
+.instagram:hover{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px #ff06ff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.facebook:hover{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px #006eff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.twitter:hover{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px #000000;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.youtube:hover{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px #ff0000;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
 .contenedor{
   margin-top: 100px;  
   display: grid;
@@ -113,8 +142,6 @@ body{
 
 background-image: url("../img/noticias.png");
 background-size: 380px;
-
-
 background-position: center;
 background-repeat: no-repeat;
 box-shadow: 0 0 10px #e60012;
