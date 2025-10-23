@@ -113,24 +113,3 @@ background-repeat: no-repeat;
 
 }
 
-.cookie-caja{
-
-  width: cover;
-  background: grey;
-  color: white;
-  border-top: 1px solid #000000;
-  margin-top: 108px;
-  padding: 10px;
-  text-align: center;
-
-}
-
-#cookie-boton button{
-
-  background: #000000;
-  color: #fff;
-  padding: 7px 15px;
-  margin-left: 8px;
-  border-radius: 4px;
-  cursor: pointer;
-}

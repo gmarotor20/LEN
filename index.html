@@ -1,86 +1,87 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
-    <title>GameStop</title>  
+    <title>GameStop</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.ico">
-</head>
+    <link rel="stylesheet" href="css/cookies.css">
 
-<header class="header">
-    
-<h1>GameStop</h1>  
+    <header class="header">
+        <h1>GameStop</h1>
 
-<nav class="navegador">
-    <a href="https://www.instagram.com/gamestop/" target="_blank" title="Instagram">
-        <img src="img/instagram.png" width="40" height="40" alt="Instagram">
-    </a>
-    <a href="https://www.facebook.com/GameStop/" target="_blank" title="Facebook">
-        <img src="img/facebook.png" width="40" height="40" alt="Facebook">
-    </a>
-    <a href="https://x.com/gamestop" target="_blank" title="Twitter">
-        <img src="img/twitter.png" width="40" height="40" alt="Twitter">
-    </a>
-    <a href="https://www.youtube.com/gamestopvideo" target="_blank" title="Youtube">
-        <img src="img/youtube.png" width="40" height="40" alt="Youtube">
-    </a>
-</nav>
-
-</header>
-
-<body>
+        <nav class="navegador">
+            <a href="https://www.instagram.com/gamestop/" target="_blank" title="Instagram">
+                <img src="img/instagram.png" width="40" height="40" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/GameStop/" target="_blank" title="Facebook">
+                <img src="img/facebook.png" width="40" height="40" alt="Facebook">
+            </a>
+            <a href="https://x.com/gamestop" target="_blank" title="Twitter">
+                <img src="img/twitter.png" width="40" height="40" alt="Twitter">
+            </a>
+            <a href="https://www.youtube.com/gamestopvideo" target="_blank" title="Youtube">
+                <img src="img/youtube.png" width="40" height="40" alt="Youtube">
+            </a>
+        </nav>
+    </header>
 
     <div class="contenedor">
+        <div class="bloque">
+            <a href="paginas/txapelketa.html">
+                <div class="caja-texto"></div>
+            </a>
+            <div class="caja-titulo">Txapelketarako sarrera</div>
+        </div>
 
-    <div class="bloque">
-        <a href="paginas/txapelketa.html">
-        <div class="caja-texto"></div>
-        </a>
-        <div class="caja-titulo">Txapelketarako sarrera</div>
+        <div class="bloque">
+            <a href="paginas/partehartzaileak.html">
+                <div id="participantes" class="caja-texto"></div>
+            </a>
+            <div class="caja-titulo">Parte-Hartzaileak</div>
+        </div>
 
-    </div>   
+        <div class="bloque">
+            <div id="noticias" class="caja-texto"></div>
+            <div class="caja-titulo">Azken berriak</div>
+        </div>
 
-    <div class="bloque">
-        <a href="paginas/partehartzaileak.html">
-        <div id="participantes" class="caja-texto"></div>
-        </a>
-        <div class="caja-titulo">Parte-Hartzaileak</div>
-    </div>
-    
-    <div class="bloque">
-        <div id="noticias" class="caja-texto"></div>
-        <div class="caja-titulo">Azken berriak</div>
-    </div>
+        <div class="bloque">
+            <div id="clasificacion" class="caja-texto"></div>
+            <div class="caja-titulo">Sailkapenak</div>
+        </div>
 
-    <div class="bloque">
-        <div id="clasificacion" class="caja-texto"></div>
-        <div class="caja-titulo">Sailkapenak</div>
-    </div>
-    
-    <div class="bloque">
-        <a href="paginas/formulario.html">
-        <div id="formulario" class="caja-texto"></div>
-        </a>
-        <div class="caja-titulo">Formularioa</div>
-    </div>
-    
-    <div class="bloque">
-        <div id="conocenos"  class="caja-texto"></div>
-        <div class="caja-titulo">EZAGUTU EZAZU!</div>
-    </div>
+        <div class="bloque">
+            <a href="paginas/formulario.html">
+                <div id="formulario" class="caja-texto"></div>
+            </a>
+            <div class="caja-titulo">Formularioa</div>
+        </div>
 
+        <div class="bloque">
+            <div id="conocenos" class="caja-texto"></div>
+            <div class="caja-titulo">EZAGUTU EZAZU!</div>
+        </div>
     </div>
 
-</body>
+    <!-- Aviso de Cookies -->
+    <div class="aviso-cookies" id="aviso-cookies">
+        <img class="galleta" src="img/cookie.svg" alt="Galleta">
+        <h3 class="titulo">Cookies</h3>
+        <p class="parrafo">Cookie propioak eta hirugarrenenak erabiltzen ditugu gure zerbitzuak hobetzeko.</p>
 
-    <footer>
-        <div id="cookie-boton" class="cookie-caja">
-        Webgune honek cookieak erabiltzen ditu zure esperientzia hobetzeko.
-        <button>Onartu</button>
-        </div>    
+        <button class="boton" id="btn-aceptar-cookies">Ados nago</button>
+        <a class="enlace" href="cookies/avisoDeCookies.html">Gure terminoak eta baldintzak</a>
+    </div>
+    <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
 
+     <footer class="ck">
+        &copy; 2024 GameStop. Eskubide guztiak erreserbatuta.
     </footer>
 
+    <!--Ejecuta el script de las cookies -->
+    <script src="cookies/cookiesAlert.js"></script>
+</body>
+
 </html>
-
-
