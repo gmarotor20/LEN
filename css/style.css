@@ -1,10 +1,12 @@
 
 body{
-    background-color: rgb(248, 248, 248);
+     background: radial-gradient(circle at top, #1a1a1a 0%, #0a0a0a 100%);
+
+
 }
 
 .header{
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(26, 26, 26);
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -13,7 +15,7 @@ body{
 
 .header h1{
     font-size: 45px;
-    color: rgb(0, 0, 0);
+    color: rgb(172, 6, 6);
     flex-grow: 1;
     text-align: center;
     margin: 0;
@@ -31,6 +33,7 @@ body{
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
   justify-items: center;
+  
 }
 
 .bloque{
@@ -38,6 +41,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+  
 
 }
 
@@ -54,17 +58,19 @@ body{
   color: white;
   font-size: 1.3rem;
   font-weight: bold;
+  box-shadow: 0 0 10px #e60012;
 
 }
 
 .caja-titulo{
 
-  color: #222;
+  color: #e60012;
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 0.15em;
   margin-bottom: 2rem;
+  box-shadow: 0 0 10px #e60012;
 
     
 }
@@ -74,6 +80,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  box-shadow: 0 0 10px #e60012;
 
 
 }
@@ -83,6 +90,7 @@ body{
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 0 10px #e60012;
 
 }
 
@@ -91,6 +99,7 @@ body{
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 0 10px #e60012;
 
 }
 #noticias{
@@ -101,6 +110,7 @@ background-size: 380px;
 
 background-position: center;
 background-repeat: no-repeat;
+box-shadow: 0 0 10px #e60012;
   
 }
 
@@ -110,6 +120,7 @@ background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 0 10px #e60012;
 
 }
 
@@ -133,4 +144,29 @@ background-repeat: no-repeat;
   margin-left: 8px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+#participantes:hover {
+
+  box-shadow: 0 10px 20px rgb(255, 0, 0);
+}
+
+#clasificacion:hover {
+   box-shadow: 0 10px 20px rgb(255, 0, 0);
+}
+
+#noticias:hover {
+   box-shadow: 0 10px 20px rgb(255, 0, 0);
+}
+
+#conocenos:hover {
+   box-shadow: 0 10px 20px rgb(255, 0, 0);
+}
+
+#formulario:hover {
+   box-shadow: 0 10px 20px rgb(255, 0, 0);
+}
+
+#sarrera:hover {
+  box-shadow: 0 10px 20px rgb(255, 0, 0);
 }
