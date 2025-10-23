@@ -46,6 +46,28 @@ header h1 {
   font-size: 18px;
 }
 
+.ver-sailkapena {
+
+  display: block;               
+  width: max-content;           
+  margin: 40px auto;            
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 10px;
+  transition: 0.3s;
+  border: 1px solid #e60012;
+  border-radius: 10px;
+}
+
+.ver-sailkapena:hover {
+
+  background: #ff1a30;
+  transform: scale(1.05);
+  
+}
+
 .introduccion {
     text-align: center;
     color: #fff;
