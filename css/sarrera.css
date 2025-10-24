@@ -2,21 +2,23 @@
      background: radial-gradient(circle at top, #1a1a1a 0%, #0a0a0a 100%);
 }
 
-.header{
-    background-color:rgb(26, 26, 26);
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    border-radius: 10px;
+header {
+  position: relative;       
+  padding: 20px;
+  color: beige;
+  display: flex;
+  align-items: center;      
 }
 
-h1 {
-    color: #96030f;
-    text-align: center;
+header h1 {
+  position: absolute;       
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
 }
 
 .volver {
-  background: linear-gradient(90deg, #222 0%, #333 100%);
+
   color: #fff;
   border: 1px solid #e60012;
   border-radius: 10px;
@@ -24,18 +26,24 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
-  transition: 0.3s;
   display: flex;
   align-items: center;
   gap: 6px;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
 .volver:hover {
+
   background: #e60012;
   box-shadow: 0 0 10px #e60012;
   transform: scale(1.05);
 }
 
+
+.volver span {
+  font-size: 18px;
+}
 
 
 button[type="submit"]:hover {
