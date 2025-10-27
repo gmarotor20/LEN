@@ -1,61 +1,118 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset='utf-8'>
-    <link rel="icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="../css/sarrera.css">
-    <title>Txapelketa Sarrera</title>
-    
+  <meta charset='utf-8'>
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="../css/sarrera.css">
+  <title>Txapelketa Sarrera</title>
+
 </head>
 <header>
-    <a href="../index.html" class="volver">
-        <span>⬅</span>Atzera
-     </a>
-    <h1>Txapelketaren Sarrera</h1>
+  <a href="../index.html" class="volver">
+    <span>⬅</span>Atzera
+  </a>
+  <h1>Txapelketaren Sarrera</h1>
 </header>
 
 <body>
-<div class="caja-padre">
-  <div class="caja-video">
-    <video controls poster="/img/poster.png" muted>
-      <source src="/video/torneo.mp4" type="video/mp4">
-    </video>
+  <div class="caja-padre">
+    <div class="caja-video">
+     
+        <iframe width="1000px" height="650px" src="https://www.youtube.com/embed/1dPi64tT1go"
+          title="Reproductor de video de YouTube" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+  
+    </div>
+
+    <div class="caja-derecha">
+      <div>
+        <table class="tabla">
+          <tr>
+            <th>Nº Arauak</th>
+            <th>Deskripzioa</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Talde bakoitzak 3 jokalari titular izan behar ditu.</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jokabide toxikoa zigortzen da (irasoak, arrazakeria, trolling).</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Debekatuta dago cheat-ak, makroak, script-ak edo edozein kanpoko software erabiltzea.</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Administratzaileek emaitza ofizialak egiaztatuko eta argitaratuko dituzte.</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Txapelketa gozatu.</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="caja-puntuazioa">
+        <table class="tabla">
+          <tr>
+            <th>Irizpide</th>
+            <th>Puntuak/Emaitza</th>
+          </tr>
+          <tr>
+            <td>Cheat-en erabilera</td>
+            <td>Taldearen kanporatzea</td>
+          </tr>
+          <tr>
+            <td>Irabazlea</td>
+            <td>+3</td>
+          </tr>
+          <tr>
+            <td>Berdinketa</td>
+            <td>=0</td>
+          </tr>
+          <tr>
+            <td>Taldeen berdinketa</td>
+            <td>Dif (Irabazitako/galduko errondak)</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="caja-premioak">
+        <table class="tabla">
+          <tr>
+            <th>Emaitza</th>
+            <th>Sariak</th>
+          </tr>
+          <tr>
+            <td>1.Lekua</td>
+            <td>50.000€ + Urrezko Kopa</td>
+          </tr>
+          <tr>
+            <td>2.Lekua</td>
+            <td>20.000€ + Zilarrezko Kopa</td>
+          </tr>
+          <tr>
+            <td>3.Lekua</td>
+            <td>10.000€ +Brontzezko Kopa</td>
+          </tr>
+          <tr>
+            <td>Txapelketako MVP</td>
+            <td>2.500€ + Medaila</td>
+          </tr>
+          <tr>
+            <td>Talde sorpresa</td>
+            <td>500€ + Ranking puntuazioak </td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
   </div>
-
-  <div class="caja-derecha">
-    <div>
-      <table class="tabla">
-        <tr><th>Nº Arauak</th><th>Deskripzioa</th></tr>
-        <tr><td>1</td><td>Talde bakoitzak 3 jokalari titular izan behar ditu.</td></tr>
-        <tr><td>2</td><td>Jokabide toxikoa zigortzen da (irasoak, arrazakeria, trolling).</td></tr>
-        <tr><td>3</td><td>Debekatuta dago cheat-ak, makroak, script-ak edo edozein kanpoko software erabiltzea.</td></tr>
-        <tr><td>4</td><td>Administratzaileek emaitza ofizialak egiaztatuko eta argitaratuko dituzte.</td></tr>
-        <tr><td>5</td><td>Txapelketa gozatu.</td></tr>
-      </table>
-    </div>
-
-    <div class="caja-puntuazioa">
-      <table class="tabla">
-        <tr><th>Irizpide</th><th>Puntuak/Emaitza</th></tr>
-        <tr><td>Cheat-en erabilera</td><td>Taldearen kanporatzea</td></tr>
-        <tr><td>Irabazlea</td><td>+3</td></tr>
-        <tr><td>Berdinketa</td><td>=0</td></tr>
-        <tr><td>Taldeen berdinketa</td><td>Dif (Irabazitako/galduko errondak)</td></tr>
-      </table>
-    </div>
-
-    <div class="caja-premioak">
-      <table class="tabla">
-        <tr><th>Emaitza</th><th>Sariak</th></tr>
-        <tr><td>1.Lekua</td><td>50.000€ + Urrezko Kopa</td></tr>
-        <tr><td>2.Lekua</td><td>20.000€ + Zilarrezko Kopa</td></tr>
-        <tr><td>3.Lekua</td><td>10.000€ +Brontzezko Kopa</td></tr>
-        <tr><td>Txapelketako MVP</td><td>2.500€ + Medaila</td></tr>
-        <tr><td>Talde sorpresa</td><td>500€ + Ranking puntuazioak </td></tr>
-      </table>
-    </div>
-
-  </div>
-</div>
 </body>
+
 </html>
