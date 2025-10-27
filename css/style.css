@@ -62,7 +62,6 @@ body{
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
   justify-items: center;
-  transition: transform 0.3s, box-shadow 0.3s;
   
 }
 
@@ -71,7 +70,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: transform 0.3s, box-shadow 0.3s;
   
 
 }
@@ -86,45 +84,50 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: 1.3rem;
-  font-weight: bold;
-  box-shadow: 0 0 10px #e60012;
-  transition: transform 0.3s, box-shadow 0.3s;
+
 
 }
 
 .caja-titulo{
 
-  color: #e60012;
+  color: #ffffff;
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 0.15em;
   margin-bottom: 2rem;
-  box-shadow: 0 0 10px #e60012;
-  transition: transform 0.3s, box-shadow 0.3s;
-
-    
+  
 }
 
+#sarrera{
+
+  background-image: url('../img/poster.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 0 0 10px #ffffff;
+  transition: transform 0.3s, box-shadow 0.3s;
+
+}
 #formulario{
+
   background-image: url('../img/formulario.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  box-shadow: 0 0 10px #e60012;
+  box-shadow: 0 0 10px #ffffff;
    transition: transform 0.3s, box-shadow 0.3s;
 
 
 }
 
 #participantes{
+
   background-image: url('../img/participantes.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0 0 10px #e60012;
+  box-shadow: 0 0 10px #ffffff;
   transition: transform 0.3s, box-shadow 0.3s;
 
 }
@@ -134,7 +137,7 @@ body{
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0 0 10px #e60012;
+  box-shadow: 0 0 10px #ffffff;
   transition: transform 0.3s, box-shadow 0.3s;
 
 }
@@ -144,7 +147,7 @@ background-image: url("../img/noticias.png");
 background-size: 380px;
 background-position: center;
 background-repeat: no-repeat;
-box-shadow: 0 0 10px #e60012;
+box-shadow: 0 0 10px #ffffff;
 transition: transform 0.3s, box-shadow 0.3s;
   
 }
@@ -155,7 +158,7 @@ transition: transform 0.3s, box-shadow 0.3s;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0 0 10px #e60012;
+  box-shadow: 0 0 10px #ffffff;
   transition: transform 0.3s, box-shadow 0.3s;
 
 }

@@ -63,6 +63,8 @@ button:hover {
     padding: 20px;
     gap: 20px;
     color: white;
+    flex-wrap: wrap;
+    
   }
 
   .caja-video{
