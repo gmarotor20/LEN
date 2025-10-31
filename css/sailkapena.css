@@ -40,10 +40,10 @@ header h1 {
 }
 
 .bracket-container {
-            max-width: 1600px;
+            max-width: 1400px;
             margin: 0 auto;
             background: white;
-            padding: 40px;
+            padding: 20px;
             border-radius: 20px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             overflow-x: auto;
@@ -55,6 +55,7 @@ header h1 {
             grid-template-rows: repeat(16, 50px);
             gap: 20px;
             min-width: 1400px;
+        
         }
 
         .round-title {
@@ -95,10 +96,10 @@ header h1 {
             border-color: #667eea;
         }
 
-        .match-header {
+        .fecha {
             background: #f5f5f5;
             padding: 4px 8px;
-            font-size: 10px;
+            font-size: 13px;
             color: #666;
             border-bottom: 1px solid #e0e0e0;
             text-align: center;
@@ -113,22 +114,98 @@ header h1 {
             flex: 1;
         }
 
+        .logo-faze {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;   
+                
+        }
+
+        .logo-navi {
+            width: 100%;
+            height: 90%;
+            object-fit: contain;   
+           
+        }
+
+         .logo-fnatic {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;   
+               
+        }
+
+        .logo-vitality {
+            width: 100%;
+            height: 80%;
+            object-fit: cover;   
+             
+        }
+
+        .logo-mongolz {
+            width: 100%;
+            height: 85%;
+            object-fit: contain;   
+                
+        }
+
+          .logo-falcons {
+            width: 100%;
+            height: 75%;
+            object-fit: contain;   
+                
+        }
+
+         .logo-furia {
+
+            width: 100%;
+            height: 75%;
+            object-fit: contain;   
+                
+        }
+
+         .logo-g2 {
+
+            width: 100%;
+            height: 75%;
+            object-fit: contain;   
+                
+        }
+
+        #perdedor{
+            background-color: #db1829;
+        }
+
+        #ganador{
+
+           background-color: goldenrod;
+
+        }
+
+        #segundon{
+
+            background-color: silver;
+
+
+        }
+
         .team:last-child {
             border-bottom: none;
         }
 
-        .team-name {
-            font-size: 13px;
-            color: #333;
+        .equipo {
+            font-size: 20px;
+            color: #000000;
             font-weight: 500;
+            font-weight: bold;
         }
 
-        .team-score {
+        .puntuacion {
             font-weight: bold;
-            color: #666;
+            color: #000000;
             min-width: 20px;
             text-align: center;
-            font-size: 12px;
+            font-size: 25px;
         }
 
         /* Round of 16 - Left */
@@ -142,10 +219,33 @@ header h1 {
         .match-r16-8 { grid-column: 1; grid-row: 16 / 18; }
 
         /* Quarter Finals - Left */
-        .match-q1 { grid-column: 2; grid-row: 3 / 5; }
-        .match-q2 { grid-column: 2; grid-row: 7 / 9; }
-        .match-q3 { grid-column: 2; grid-row: 11 / 13; }
-        .match-q4 { grid-column: 2; grid-row: 15 / 17; }
+        .match-q1 { grid-column: 2; grid-row: 3 / 5; 
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+
+        }
+        .match-q2 { grid-column: 2; grid-row: 7 / 9; 
+
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+        
+        }
+        .match-q3 { grid-column: 2; grid-row: 11 / 13; 
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+        
+        }
+        .match-q4 { grid-column: 2; grid-row: 15 / 17; 
+
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+        }
 
         /* Semi Finals - Left */
         .match-s1 { grid-column: 3; grid-row: 5 / 7; }
@@ -159,7 +259,7 @@ header h1 {
             border: none;
         }
 
-        .match-final .match-header {
+        .match-final .fecha {
             background: rgba(255,255,255,0.2);
             color: white;
             border-bottom: 1px solid rgba(255,255,255,0.3);
@@ -174,12 +274,12 @@ header h1 {
             border-bottom: none;
         }
 
-        .match-final .team-name {
+        .match-final .equipo {
             color: white;
             font-weight: 600;
         }
 
-        .match-final .team-score {
+        .match-final .puntuacion {
             color: white;
         }
 
@@ -188,10 +288,34 @@ header h1 {
         .match-s4 { grid-column: 5; grid-row: 13 / 15; }
 
         /* Quarter Finals - Right */
-        .match-q5 { grid-column: 6; grid-row: 3 / 5; }
-        .match-q6 { grid-column: 6; grid-row: 7 / 9; }
-        .match-q7 { grid-column: 6; grid-row: 11 / 13; }
-        .match-q8 { grid-column: 6; grid-row: 15 / 17; }
+        .match-q5 { grid-column: 6; grid-row: 3 / 5; 
+
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+    
+        }
+        .match-q6 { grid-column: 6; grid-row: 7 / 9;
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+        
+        }
+        .match-q7 { grid-column: 6; grid-row: 11 / 13; 
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+        
+        }
+        .match-q8 { grid-column: 6; grid-row: 15 / 17;
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+        
+        }
 
         /* Round of 16 - Right */
         .match-r16-9 { grid-column: 7; grid-row: 2 / 4; }
@@ -202,3 +326,125 @@ header h1 {
         .match-r16-14 { grid-column: 7; grid-row: 12 / 14; }
         .match-r16-15 { grid-column: 7; grid-row: 14 / 16; }
         .match-r16-16 { grid-column: 7; grid-row: 16 / 18; }
+
+   /* Responsive */     
+@media (max-width: 1024px) {
+    .bracket {
+        min-width: 800px;
+        gap: 15px;
+    }
+    
+    .match {
+        padding: 12px;
+        min-height: 100px;
+    }
+    
+    .round-title {
+        font-size: 14px;
+        padding: 8px;
+    }
+    
+    .team img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .bracket-container {
+        padding: 10px 5px;
+    }
+    
+    .bracket {
+        display: flex;
+        flex-direction: column;
+        min-width: auto;
+        gap: 20px;
+    }
+    
+    .round-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .match {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto 15px;
+        padding: 15px;
+    }
+    
+    .team {
+        padding: 10px 0;
+    }
+    
+    .equipo {
+        font-size: 16px;
+    }
+    
+    .puntuacion {
+        font-size: 18px;
+        min-width: 30px;
+    }
+    
+    .team img {
+        max-width: 35px;
+        max-height: 35px;
+    }
+    
+    /* Mobile section headers */
+    .round-title::before {
+        content: "📍 ";
+    }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+    .bracket-container {
+        padding: 5px;
+    }
+    
+    .match {
+        max-width: 100%;
+        padding: 10px;
+    }
+    
+    .team {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .equipo {
+        font-size: 14px;
+    }
+    
+    .puntuacion {
+        font-size: 16px;
+    }
+    
+    .fecha {
+        font-size: 11px;
+    }
+    
+    .team img {
+        max-width: 25px;
+        max-height: 25px;
+    }
+}
+
+/* Horizontal scroll indicator */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .bracket-container::after {
+        content: "← Desliza para ver más →";
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 12px;
+        color: #666;
+        background: rgba(255,255,255,0.9);
+        padding: 5px 10px;
+        border-radius: 15px;
+    }
+}
