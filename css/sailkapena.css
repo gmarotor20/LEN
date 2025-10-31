@@ -1,0 +1,40 @@
+body{
+      background-color: #1a1a1a;
+}
+
+header {
+  position: relative;       
+  padding: 20px;
+  color: beige;
+  display: flex;
+  align-items: center;      
+}
+
+header h1 {
+  position: absolute;       
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+.volver {
+
+  color: #fff;
+  border: 1px solid #e60012;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.volver:hover {
+
+  background: #e60012;
+  box-shadow: 0 0 10px #e60012;
+  transform: scale(1.05);
+}
