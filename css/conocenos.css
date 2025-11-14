@@ -1,11 +1,11 @@
 body{
-      background-color: #1a1a1a;
+      background-color: #030303;
 }
 
 header {
   position: relative;       
   padding: 20px;
-  color: beige;
+  color: rgb(252, 241, 241);
   display: flex;
   align-items: center;      
 }
@@ -42,4 +42,104 @@ header h1 {
 
 .volver span {
   font-size: 18px;
+}
+
+.contenedor-contenido {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.mapa-responsive {
+  flex: 0 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(230, 0, 18, 0.3);
+}
+
+.mapa-responsive iframe {
+  display: block;
+  width: 870px;
+  height: 650px;
+  border: 0;
+}
+
+.contenedor-tabla {
+  flex: 0 0 auto;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(230, 0, 18, 0.3);
+  border: 2px solid #e60012;
+}
+
+.contenedor-tabla h2 {
+  color: #e60012;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.tabla th {
+  background-color: #e60012;
+  color: #fff;
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.tabla td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #333;
+  cursor: text;
+  transition: background-color 0.2s;
+}
+
+.tabla td:hover {
+  background-color: #f5f5f5;
+}
+
+.tabla td:focus {
+  background-color: #fff3e0;
+  outline: none;
+  box-shadow: inset 0 0 5px rgba(230, 0, 18, 0.3);
+}
+
+.tabla tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 1024px) {
+  .contenedor-contenido {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mapa-responsive iframe {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .contenedor-tabla {
+    width: 100%;
+    max-width: 600px;
+  }
 }
