@@ -10,12 +10,7 @@ header {
   align-items: center;      
 }
 
-header h1 {
-  position: absolute;       
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 0;
-}
+
 
 .volver {
 
@@ -108,5 +103,5 @@ button:hover {
     font-size: 18px;
   }
 
-        
+  
 

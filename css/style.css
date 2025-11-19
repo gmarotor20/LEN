@@ -209,3 +209,50 @@ transition: transform 0.3s, box-shadow 0.3s;
 #sarrera:hover {
   box-shadow: 0 10px 20px rgb(255, 0, 0);
 }
+
+/* -------------------------------------
+   RESPONSIVE
+------------------------------------- */
+
+/* 🔹 Tablets */
+@media (max-width: 1024px) {
+    .header h1 {
+        font-size: 38px;
+    }
+}
+
+/* 🔹 Móviles */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .caja-texto {
+        height: 200px;
+    }
+
+    .contenedor {
+        margin-top: 40px;
+        gap: 1.5rem;
+    }
+}
+
+/* 🔹 Móviles pequeños */
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 26px;
+    }
+
+    .caja-texto {
+        height: 170px;
+    }
+
+    .caja-titulo {
+        font-size: 1rem;
+    }
+}
